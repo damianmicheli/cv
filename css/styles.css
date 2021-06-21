@@ -1,0 +1,81 @@
+/* Import de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+/* Etiquetas html */
+body {
+    margin:0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1, h2 {
+    background-color: #47597E;
+    color: #DBE6FD;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+
+
+/* header -------------------------------------------------------*/
+header { 
+    background-color: #47597E;
+}
+
+    /* Banner principal*/
+.banner-cabecera { 
+    background: #47597E url('../img/keyboard-2.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+    /* Barra de navegación */
+nav {
+    background-color: #293B5F;
+}
+
+nav a{
+    text-decoration: none;
+    color: #DBE6FD;
+}
+
+
+/* main ------------------------------------------------------------*/
+main{
+    margin: 50px auto; 
+    max-width: 1041px;
+}
+
+    /* Encabezado de datos personales (todos los span dentro de una etiqueta con clase "datos-personales") */
+.datos-personales span{ 
+    font-style: italic;
+    font-weight: bold;
+}
+
+    /* Encabezados de fechas (todos los span dentro de una etiqueta con clase "fecha") */
+.fecha span{
+    font-weight: bold;
+}
+
+
+/* footer --------------------------------------------------------*/
+footer{
+    background-color: #B2AB8C;
+    color: #293B5F;
+    font-size: 20px;
+    text-align: center;
+}
+footer p a{
+    color:#293B5F;
+    font-size: 30px;
+}
+
+
+
