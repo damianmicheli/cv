@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
 /* Etiquetas html */
+* {
+    box-sizing:border-box;
+}
+
 body {
     margin:0;
     font-family: 'Noto Sans JP', sans-serif;
@@ -33,7 +37,16 @@ header {
 .banner-cabecera { 
     background: #47597E url('../img/keyboard-2.png') no-repeat;
     background-size: cover;
-    text-align: center;
+    height: 300px;
+}
+
+.banner-cabecera img {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    border: solid 1px white;
+    padding: 10px;
+    border-radius: 15px;
 }
 
     /* Barra de navegación */
